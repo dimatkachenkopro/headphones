@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/simplelightbox.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <title>Headphones</title>
+  </head>
+  <body id="home">
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">Photo</h1>
+        <ul class="nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Showcase -->
+    <section class="section-a">
+      <div class="container">
+        <div>
+          <h1>The headphones of the future.</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+            repudiandae rerum libero ipsum asperiores omnis mollitia, nostrum
+            commodi placeat ea itaque modi corrupti corporis nam voluptas aut
+            reprehenderit eaque culpa.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <img src="./img/headphones1.jpeg" alt="" />
+      </div>
+    </section>
+
+    <!-- Large Text -->
+    <section id="about" class="section-b">
+      <div class="overlay">
+        <div class="section-b-inner py-5">
+          <h3 class="text-2">Loud & Clear</h3>
+          <h2 class="text-5 mt-1">People Aren't Hearing All the Music</h2>
+          <p class="mt-1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+            repudiandae laboriosam quia, error tempore porro ducimus voluptate
+            laborum nostrum iure.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section-c">
+      <div class="gallery">
+        <a href="./img/headphones3.jpeg" class="big"
+          ><img src="./img/headphones3.jpeg" alt=""
+        /></a>
+        <a href="./img/headphones8.jpeg" class="big"
+          ><img src="./img/headphones8.jpeg" alt=""
+        /></a>
+        <a href="./img/headphones4.jpeg" class="big"
+          ><img src="./img/headphones4.jpeg" alt=""
+        /></a>
+        <a href="./img/headphones5.jpeg" class="big"
+          ><img src="./img/headphones5.jpeg" alt=""
+        /></a>
+        <a href="./img/headphones7.jpeg" class="big">
+          <img src="./img/headphones7.jpeg" alt=""
+        /></a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-footer py-4 bg-primary">
+      <div class="container">
+        <div>
+          <h2 class="text-2 mb-1">Lorem ipsum dolor sit.</h2>
+          <a href="http://twitter.com">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+          <a href="http://facebook.com">
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+          <a href="http://youtube.com">
+            <i class="fab fa-youtube fa-2x"></i>
+          </a>
+        </div>
+        <div>
+          <h3>Company Info</h3>
+          <ul>
+            <li><a href="#">All Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Blog Posts</h3>
+          <ul>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Subscribe</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/simple-lightbox.min.js"></script>
+
+    <script>
+      $(function() {
+        const $gallery = $(".gallery a").simpleLightbox();
+      });
+    </script>
+  </body>
+</html>
